@@ -1,16 +1,77 @@
 .card {
-    width: 600px;
+margin-left: 3.7rem;
+/* position: relative; */
 }
 .card ul{
 
     display: flex;
     /* flex-wrap: wrap; */
+    flex-direction: column;
     gap: 0.5rem;
-    ;
+    width: 510px;
+    position: relative;
+overflow: hidden;
+
+    
 
 }
 .card ul li{
-    width: 170px;
     background-color: white;
-    padding: 0.5rem;
+    padding: 1.2rem;
+    /* width: 100%; */
+}
+
+.card ul li img{
+    width: 45px;
+}
+
+.card .parn{
+    position: absolute;
+    width: 120px;
+    right: -3rem;
+    opacity: .5;
+    /* top: 0; */
+}
+
+@media screen and (max-width:800px) {
+    .card ul{
+       width: 320px;
+    }
+    .card {
+        margin-left: 0rem;
+        /* position: relative; */
+        }
+        .card ul li p{
+            width: 45px;
+        }
+        .card ul{
+            gap: .9rem;
+        }
+        .card ul li{
+            /* margin-left: 1.2rem; */
+            /* width: 100% !important; */
+        }
+              
+}
+
+@media screen and (max-width:300px) {
+    .card ul{
+       width: 270px;
+    }
+    .card {
+        margin-left: 0rem;
+        /* position: relative; */
+        }
+        .card ul li p{
+            width: 35px;
+            font-size: .7rem;
+        }
+        .card ul{
+            gap: .9rem;
+        }
+        .card ul li{
+            /* margin-left: 1.2rem; */
+            /* width: 100% !important; */
+        }
+              
 }

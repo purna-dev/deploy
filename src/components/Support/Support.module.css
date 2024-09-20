@@ -1,0 +1,15 @@
+.support{
+    /* width: 200px; */
+    width: 60px;
+    height: 60px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    border-radius: 0.3rem;
+    background-color: var(--black-primary);
+    border-radius: 50%;
+}
