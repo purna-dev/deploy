@@ -1,0 +1,108 @@
+.sidebar{
+    
+    width: 310px;
+    height: 100vh;
+    padding: 0.5rem 0rem;
+    background-color: white;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    /* width: 0px; */
+    position: relative;
+    /* left: -100%; */
+    /* transform: translateX(-100%); */
+    /* animation: mymove .9s ease-in-out; */
+    /* border-right: 1px solid rgba(0, 0, 0, .1); */
+}
+.sidebar .close{
+    margin-bottom: .7rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 0.6rem 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar .close span{
+    width: 27px;
+    height: 27px;
+}
+.sidebar .close span:nth-child(2){
+    padding: 0.3rem;
+    display: flex;
+    font-size: .9rem;
+    font-weight: 500;
+    align-items: center;
+    width: 68px;
+    height: 42px;
+    /* border-radius: 50%; */
+    /* background-color: rgba(0, 0, 0, .1); */
+    border-left: 1px solid rgba(0, 0, 0, .1);
+
+}
+@keyframes mymove {
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0%);}
+  }
+  @keyframes mymove2 {
+    from {transform: translateX(0%);}
+    to {transform: translateX(-100%);}
+  }
+  .sidebar .collection{
+    padding: 0.4rem 1.3rem;
+
+  }
+  .sidebar .collection ul{
+    margin: 0 1.1rem;
+
+  }
+.sidebar .collection ul li{
+ display: flex;
+ justify-content: space-between;
+ padding: 0.6rem ;
+ font-size: .9rem;
+ font-weight: 500;
+}
+.sidebar .collection span{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    gap: .5rem;
+    opacity: .7;
+}
+.wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999999;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(7px);
+    transition: all .5s ease-in-out;
+    /* transform: translateX(-100%); */
+}
+
+.sidebar .collection .user{
+    margin: 0.5rem 1.8rem;
+
+
+}
+.sidebar .collection .user button{
+    padding: 0.6rem 2.3rem;
+    width: 100%;
+    background-color: var(--black-primary);
+    border: none;
+    border-radius: .2rem;
+    color: white;
+}
+
+.sidebar .collection .user span{
+    font-size: .9rem;
+ font-weight: 500;
+color: black;
+    padding: 0.2rem 0;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}

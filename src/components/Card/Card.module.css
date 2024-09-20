@@ -1,0 +1,16 @@
+.card {
+    width: 600px;
+}
+.card ul{
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 0.5rem;
+    ;
+
+}
+.card ul li{
+    width: 170px;
+    background-color: white;
+    padding: 0.5rem;
+}

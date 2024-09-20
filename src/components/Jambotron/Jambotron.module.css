@@ -1,0 +1,198 @@
+.jambo{
+    background: rgb(99,229,178);
+background: linear-gradient(149deg, rgba(99,229,178,0.2) 0%, rgba(247,192,200,0.1) 43%, rgba(253,203,148,0) 100%);
+/* height: 80vh; */
+display: flex;
+align-items: center;
+/* gap: .5rem; */
+padding: 2rem 9.5rem;
+overflow: hidden;
+justify-content: center;
+margin-top: 3.8rem;
+width: 100%;
+}
+.jambo .jambo_left{
+ width: 40%;
+ position: relative;
+ color: #212121;
+}
+.jambo .jambo_left .note{
+    font-size: .9rem;
+    opacity: .9;
+    margin-top: .2rem;
+    text-transform: none;
+    font-weight: 400;
+}
+.jambo .jambo_left h2{
+    font-size: 2.6rem;
+    width: 90%;
+    font-weight: 600;
+ color: #212121;
+
+
+}
+.jambo .jambo_left span{
+    font-size: 1.2rem;
+   
+}
+.jambo .jambo_left p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+ color: #212121;
+
+ margin-bottom: .7rem;
+   
+    text-transform: none;
+}
+.jambo .jambo_left .btns{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.jambo .jambo_left .btns span{
+    font-size: .9rem;
+    text-decoration: underline;
+}
+.jambo .jambo_right{
+    width: 50%;
+    /* margin-top: 3.5rem; */
+  position: relative;
+    overflow: hidden;
+}
+.jambo .jambo_right img{
+    width: 100%;
+    padding-left: 2.2rem;
+    z-index: 9;
+}
+.cir{
+    position: absolute;
+    /* left: 10%;
+    top: 50%; */
+    transform: translate(-50%,-50%);
+    left: -37%;
+    top: -12%;
+    width: 350px;
+    opacity: 1;
+    z-index: -1;
+    display: none;
+
+}
+.brush{
+    position: absolute;
+    /* left: 10%;
+    top: 50%; */
+    transform: translate(-50%,-50%);
+    left: 35%;
+    top: 6%;
+    width: 290px;
+    opacity: .3;
+    z-index: -1;
+}
+
+
+
+@media screen and (min-width:1500px) {
+
+    .jambo .jambo_left h2{
+        font-size: 2.8rem;
+        
+    
+    
+    }
+    .jambo .jambo_left .note{
+        font-size: 1.1rem;
+       
+    }
+    .jambo .jambo_left p{
+        font-size: 1.7rem;
+        
+        margin: 0.8rem 0;
+   
+    }
+    .jambo {
+        /* padding: 2rem 12rem; */
+        /* padding: 3rem ; */
+
+    }
+    .jambo .jambo_right{
+        max-width: 45%;
+        /* margin-top: 3.5rem; */
+      
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+  .jambo{
+    margin-top: 3.1rem;
+    flex-direction: column-reverse;
+padding: 0rem 1.3rem;
+
+
+    
+  }
+  .jambo .jambo_left{
+    width: 100%;
+  }
+  .jambo .jambo_right{
+    width: 100%;
+  }
+  .jambo .jambo_right img{
+    padding-left: 0;
+  }
+
+.jambo .jambo_left .note{
+    font-size: .8rem;
+    opacity: .9;
+    margin-top: .2rem;
+    text-transform: none;
+    font-weight: 400;
+}
+.jambo .jambo_left h2{
+    font-size: 1.7rem;
+    width: 100%;
+    font-weight: 600;
+ color: #212121;
+
+
+}
+.jambo .jambo_left span{
+    font-size: 1rem;
+   
+}
+.jambo .jambo_left p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+ color: #212121;
+   
+    text-transform: none;
+}
+.cir{
+    position: absolute;
+    /* left: 10%;
+    top: 50%; */
+    transform: translate(-50%,-50%);
+    left: -10%;
+    top: -60%;
+    width: 250px;
+    opacity: 1;
+    z-index: -1;
+    display: block;
+
+
+}
+.jambo .jambo_left .btns{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+}
+.btns span{
+    margin: 0.2rem 0;
+}
+.brush{
+    width: 200px;
+    opacity: .3;
+}
+}
