@@ -28,7 +28,7 @@ function Home() {
             <Section/>
 
               <Feature/>
-            {/* <Products/> */}
+            <Products/>
 
             {/* <Support/> */}
 

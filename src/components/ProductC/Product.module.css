@@ -1,0 +1,39 @@
+.cardp{
+    width: 219px;
+    /* background-color:var(--black-primary); */
+    /* background-color: rgba(0, 0, 0, .09); */
+    /* color: black; */
+    border-radius: .2rem;
+
+    margin: 0.3rem;
+    
+}
+.cardp img{
+    width: 100%;
+    /* border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem; */
+    border-radius: .2rem;
+
+}
+
+.cardp div{
+    text-align: center;
+    padding: 0.4rem 0;
+
+}
+.cardp div p{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--black-primary);
+
+}
+.cardp div span{
+    color:#c5717d;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.cardp:hover{
+    box-shadow: 6px 7px 10px rgba(0, 0, 0, .09), -6px -7px 10px rgba(0, 0, 0, .05);
+}
