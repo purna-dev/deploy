@@ -60,7 +60,7 @@ function Products() {
           {/* <span> <MdOutlineArrowOutward size={18} /> See products</span> */}
           <span>
           <ul>
-            <li> <MdOutlineArrowOutward size={16} /> All Products</li>
+            <li> <MdOutlineArrowOutward size={14} /> All Products</li>
             
             
           </ul>
